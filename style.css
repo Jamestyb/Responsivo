@@ -1,0 +1,64 @@
+img, embed, object, video {
+
+    max-width: 100%;
+  }
+
+  nav a, button{
+
+    min-width: 48px;
+    min-height: 48px;
+
+  }
+
+
+
+
+
+
+.conteiner{
+    text-align: center;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.caixa{
+    width: 100%;
+   
+}
+
+.vermelho{
+    background-color: red;
+    height: auto;
+}
+.azul{
+    background-color: blue;
+    height: auto;
+}
+.verde{
+    background-color: green;
+    height: auto;
+}
+
+@media screen and (min-width:500px) {
+    .vermelho{
+        width: 25%;
+    }
+    .azul{
+        width: 75%;
+    }
+    
+}
+@media screen and (min-width:600px){
+    .azul{
+        width: 50%;
+    }
+    .vermelho, .verde{
+        width: 25%;
+    }
+    
+}
